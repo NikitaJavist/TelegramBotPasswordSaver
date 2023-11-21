@@ -44,11 +44,11 @@ public class BotController extends TelegramLongPollingBot {
                               Type '/save <NAME> <login> <password>' to store info.
                             """;
 
-    final private String url = "jdbc:mysql://localhost:3306/users";
+    final private String url = "xx";
 
-    final private String username = "root";
+    final private String username = "xx";
 
-    final private String password = "yfcnzz93";
+    final private String password = "xx";
 
     final private Connection connect = DriverManager.getConnection(url, username, password);
 
